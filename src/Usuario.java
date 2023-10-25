@@ -1,14 +1,16 @@
 package src;
 
 public class Usuario {
-  private String nome;
-  private String email;
-  private int idade;
+  protected String nome;
+  protected String email;
+  protected String tel;
+  protected double nota;
 
-  public Usuario(String nome, String email, int idade) {
+  public Usuario(String nome, String email, String tel ,double nota) {
     this.nome = nome;
     this.email = email;
-    this.idade = idade;
+    this.tel = tel;
+    this.nota = nota;
   }
 
   // aqui precisa do this pra retornar?
@@ -20,9 +22,12 @@ public class Usuario {
   public String getEmail() {
     return email;
   }
+  public String getTel() {
+    return tel;
+  }
 
-  public int getIdade() {
-    return idade;
+  public double getIdade() {
+    return nota;
   }
 
 }
