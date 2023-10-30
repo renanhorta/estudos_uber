@@ -42,8 +42,10 @@ public class Motorista extends Usuario {
     }
   }
 
-  public void comecarCorrida(){
+  public Viagem comecarCorrida(Viagem viagem){
     this.corrida = true;
+    Viagem corrida = viagem;
+    return corrida;
   }
   
   public void terminarCorrida(){

@@ -19,7 +19,9 @@ class main {
     carla.showCliente();
     renan.getSaldo();
 
-    Viagem viagem1 = new Viagem(carla, monique);
+
+    Viagem viagem1 = carla.SoliciarViagem();//"rua centro, 90", "rua aazuk, 80");
+    sergio.comecarCorrida(viagem1);
     viagem1.setDistancia();
     viagem1.setTempo();
     viagem1.getCusto();

@@ -27,4 +27,13 @@ public class Cliente extends Usuario {
   public void getSaldo() {
     System.out.println("O valor da conta do cliente é de :" + this.saldo);
   }
+
+  public Viagem SoliciarViagem(){
+    System.out.printf("Informe o inicio da viagem: \n");
+    String inicio = sc.next();
+    System.out.printf("Informe o destino da viagem: \n");
+    String destino = sc.next();
+    Viagem viagem = new Viagem(this, inicio, destino);
+    return viagem;
+  }
 }
