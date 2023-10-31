@@ -1,13 +1,13 @@
 # estudos_uber
 
-Aplicação feita em base no app Uber.
+Aplicação feita com base no app Uber.
 
 Apenas um desenvolvimento das classes básicas do aplicativo.
 
 Como:
-*Usuário, que será a classe mãe.
-
+Usuário, que será a classe mãe.
 Motorista, classe herdada.
 Cliente, classe herdada.
+Viagem, forma de pagamento e outras.
 
-Viagem, classe de interação entre as classes herdadas.
+A aplicação não tem interface gráfica, a utilização é toda feita pelo console e o projeto tem somente o intuito de aprender mais sobre Programação Orientada a Objeto.
